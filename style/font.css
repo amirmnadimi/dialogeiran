@@ -1,0 +1,150 @@
+@font-face {
+	font-family: iranyekan;
+	font-display: swap;
+	font-style: normal;
+	font-weight: bold;
+	src: url('../assets/fonts/eot/iranyekanwebbold.eot');
+	src: url('../assets/fonts/eot/iranyekanwebboldd41d.eot?#iefix')
+			format('embedded-opentype'),
+		/* IE6-8 */ url('../assets/fonts/woff/iranyekanwebbold.woff') format('woff'),
+		/* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+			url('../assets/fonts/ttf/iranyekanwebbold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: iranyekan;
+	font-style: normal;
+	font-display: swap;
+	font-weight: 100;
+	src: url('../assets/fonts/eot/iranyekanwebthin.eot');
+	src: url('../assets/fonts/eot/iranyekanwebthind41d.eot?#iefix')
+			format('embedded-opentype'),
+		/* IE6-8 */ url('../assets/fonts/woff/iranyekanwebthin.woff') format('woff'),
+		/* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+			url('../assets/fonts/ttf/iranyekanwebthin.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: iranyekan;
+	font-style: normal;
+	font-weight: 300;
+	font-display: swap;
+	src: url('../assets/fonts/eot/iranyekanweblight.eot');
+	src: url('../assets/fonts/eot/iranyekanweblightd41d.eot?#iefix')
+			format('embedded-opentype'),
+		/* IE6-8 */ url('../assets/fonts/woff/iranyekanweblight.woff')
+			format('woff'),
+		/* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+			url('../assets/fonts/ttf/iranyekanweblight.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: iranyekan;
+	font-style: normal;
+	font-display: swap;
+	font-weight: normal;
+	src: url('../assets/fonts/eot/iranyekanwebregular.eot');
+	src: url('../assets/fonts/eot/iranyekanwebregulard41d.eot?#iefix')
+			format('embedded-opentype'),
+		/* IE6-8 */ url('../assets/fonts/woff/iranyekanwebregular.woff')
+			format('woff'),
+		/* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+			url('../assets/fonts/ttf/iranyekanwebregular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: iranyekan;
+	font-style: normal;
+	font-display: swap;
+	font-weight: 500;
+	src: url('../assets/fonts/eot/iranyekanwebmedium.eot');
+	src: url('../assets/fonts/eot/iranyekanwebmediumd41d.eot?#iefix')
+			format('embedded-opentype'),
+		/* IE6-8 */ url('../assets/fonts/woff/iranyekanwebmedium.woff')
+			format('woff'),
+		/* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+			url('../assets/fonts/ttf/iranyekanwebmedium.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: iranyekan;
+	font-display: swap;
+	font-style: normal;
+	font-weight: 800;
+	src: url('../assets/fonts/eot/iranyekanwebextrabold.eot');
+	src: url('../assets/fonts/eot/iranyekanwebextraboldd41d.eot?#iefix')
+			format('embedded-opentype'),
+		/* IE6-8 */ url('../assets/fonts/woff/iranyekanwebextrabold.woff')
+			format('woff'),
+		/* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+			url('../assets/fonts/ttf/iranyekanwebextrabold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: iranyekan;
+	font-style: normal;
+	font-display: swap;
+	font-weight: 900;
+	src: url('../assets/fonts/eot/iranyekanwebblack.eot');
+	src: url('../assets/fonts/eot/iranyekanwebblackd41d.eot?#iefix')
+			format('embedded-opentype'),
+		/* IE6-8 */ url('../assets/fonts/woff/iranyekanwebblack.woff')
+			format('woff'),
+		/* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+			url('../assets/fonts/ttf/iranyekanwebblack.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: iranyekan;
+	font-style: normal;
+	font-weight: 950;
+	font-display: swap;
+	src: url('../assets/fonts/eot/iranyekanwebextrablack.eot');
+	src: url('../assets/fonts/eot/iranyekanwebextrablackd41d.eot?#iefix')
+			format('embedded-opentype'),
+		/* IE6-8 */ url('../assets/fonts/woff/iranyekanwebextrablack.woff')
+			format('woff'),
+		/* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+			url('../assets/fonts/ttf/iranyekanwebextrablack.ttf') format('truetype');
+}
+
+@-moz-document url-prefix() {
+	body {
+		font-weight: light !important;
+	}
+}
+
+/* font-weight */
+.fw-lighter {
+	font-weight: 300;
+}
+
+.fw-light {
+	font-weight: 400;
+}
+
+.fw-medium {
+	font-weight: 500;
+}
+
+.fw-bold {
+	font-weight: 700;
+}
+/* font-weight */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+strong,
+a,
+li,
+input,
+button,
+body {
+	font-family: iranyekan;
+}
